@@ -2,7 +2,7 @@ FROM elasticsearch:2.2
 MAINTAINER ytnobody <ytnobody@gmail.com>
 
 ENV ES_ROOT /usr/share/elasticsearch
-ENV CRUSTER_NAME eshead
+ENV CLUSTER_NAME eshead
 
 RUN bin/plugin install mobz/elasticsearch-head
 
